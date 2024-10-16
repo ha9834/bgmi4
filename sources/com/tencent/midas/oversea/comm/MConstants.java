@@ -1,0 +1,50 @@
+package com.tencent.midas.oversea.comm;
+
+/* loaded from: classes.dex */
+public class MConstants {
+    public static final String AP_LOGIN_REPORT_FCG = "/v1/r/%s/appbind";
+    public static final String AP_LOGIN_REPORT_SANDBOX_FCG = "/v1/r/%s/appbind";
+    public static final String AP_LOG_DATA = "/cgi-bin/log_data.fcg?offer_id=%s";
+    public static final String AP_LOG_REPORT_FCG = "/v1/800/%s/log_data";
+    public static final String AP_LOG_REPORT_SANDBOX_FCG = "/v1/r/%s/log_data";
+    public static final String AP_OVERSEA_COMM_FCG = "/v1/r/%s/mobile_overseas_common";
+    public static final String AP_OVERSEA_COMM_SANDBOX_FCG = "/v1/r/%s/mobile_overseas_common";
+    public static final String AP_QUERY_MP_FCG = "/v1/r/%s/mobile_mp_info";
+    public static final String AP_QUERY_MP_SANDBOX_FCG = "/v1/r/%s/mobile_mp_info";
+    public static final String COUNTRY_IMG_URL_PREFIX = "http://imgcache.qq.com/bossweb/midas/MidasRes/xhdpi/unipay_abroad_q";
+    public static final String DevEnv = "dev";
+    public static final String INTRO_PRICE_CGI = "/cgi-bin/iap_query.fcg";
+    public static int MConstants0 = 34;
+    public static String MConstantsAlpha = "asdS";
+    public static int MConstantsBeta = 5;
+    public static String MConstantsCell = "WEls";
+    public static int MConstantsDone = 2;
+    public static String MConstantsEmma = "SD";
+    public static int MConstantsFrank = 23;
+    public static String MConstantsGeo = "SFS";
+    public static int MConstantsHolo = 282;
+    public static String MConstantsI = "ASD";
+    public static int MConstantsJoker = 5;
+    public static String MConstantsKeith = "sf";
+    public static int MConstantsLength = 23;
+    public static String MConstantsMoon = "SF";
+    public static final int MSG_COMM_LOGIN_ERROR = 3034;
+    public static final int MSG_PAYCHANNEL_CANCEL = 3017;
+    public static final int MSG_PAYCHANNEL_GET_ORDER_ERROR = 3024;
+    public static final int MSG_PAYCHANNEL_GET_ORDER_SUCC = 3023;
+    public static final int MSG_PAYCHANNEL_INIT = 3018;
+    public static final int MSG_PAYCHANNEL_INIT_ERROR = 3020;
+    public static final int MSG_PAYCHANNEL_INIT_SUCC = 3019;
+    public static final int MSG_PAYCHANNEL_PAY_ERROR = 3031;
+    public static final int MSG_PAYCHANNEL_PAY_SUCC = 3030;
+    public static final int MSG_PAYCHANNEL_PAY_UNKNOWN = 3033;
+    public static final int MSG_PAYCHANNEL_POSTPAY_ERROR = 3029;
+    public static final int MSG_PAYCHANNEL_POSTPAY_SUCC = 3028;
+    public static final int MSG_PAYCHANNEL_PREPAY_ERROR = 3022;
+    public static final int MSG_PAYCHANNEL_PREPAY_SUCC = 3021;
+    public static final int MSG_PAYCHANNEL_PROVIDE_ERROR = 3027;
+    public static final int MSG_PAYCHANNEL_PROVIDE_SUCC = 3026;
+    public static final int MSG_PAYCHANNEL_RECOVERY = 3025;
+    public static final String ReleaseEnv = "release";
+    public static final String TestEnv = "test";
+}

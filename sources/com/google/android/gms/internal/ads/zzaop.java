@@ -1,0 +1,11 @@
+package com.google.android.gms.internal.ads;
+
+import android.os.IInterface;
+import android.os.RemoteException;
+
+/* loaded from: classes2.dex */
+public interface zzaop extends IInterface {
+    void zza(zzang zzangVar) throws RemoteException;
+
+    void zzdb(String str) throws RemoteException;
+}

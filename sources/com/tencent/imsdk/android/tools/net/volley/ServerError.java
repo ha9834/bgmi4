@@ -1,0 +1,11 @@
+package com.tencent.imsdk.android.tools.net.volley;
+
+/* loaded from: classes.dex */
+public class ServerError extends VolleyError {
+    public ServerError(NetworkResponse networkResponse) {
+        super(networkResponse);
+    }
+
+    public ServerError() {
+    }
+}

@@ -1,0 +1,122 @@
+package com.android.billingclient.api;
+
+import com.android.billingclient.api.h;
+
+/* JADX INFO: Access modifiers changed from: package-private */
+/* loaded from: classes.dex */
+public final class ad {
+
+    /* renamed from: a, reason: collision with root package name */
+    static final h f943a;
+    static final h b;
+    static final h c;
+    static final h d;
+    static final h e;
+    static final h f;
+    static final h g;
+    static final h h;
+    static final h i;
+    static final h j;
+    static final h k;
+    static final h l;
+    static final h m;
+    static final h n;
+    static final h o;
+    static final h p;
+    static final h q;
+    static final h r;
+    static final h s;
+    static final h t;
+    static final h u;
+    static final h v;
+
+    static {
+        h.a c2 = h.c();
+        c2.a(3);
+        c2.a("Google Play In-app Billing API version is less than 3");
+        f943a = c2.a();
+        h.a c3 = h.c();
+        c3.a(3);
+        c3.a("Google Play In-app Billing API version is less than 9");
+        b = c3.a();
+        h.a c4 = h.c();
+        c4.a(3);
+        c4.a("Billing service unavailable on device.");
+        c = c4.a();
+        h.a c5 = h.c();
+        c5.a(5);
+        c5.a("Client is already in the process of connecting to billing service.");
+        d = c5.a();
+        h.a c6 = h.c();
+        c6.a(3);
+        c6.a("Play Store version installed does not support cross selling products.");
+        e = c6.a();
+        h.a c7 = h.c();
+        c7.a(5);
+        c7.a("The list of SKUs can't be empty.");
+        f = c7.a();
+        h.a c8 = h.c();
+        c8.a(5);
+        c8.a("SKU type can't be empty.");
+        g = c8.a();
+        h.a c9 = h.c();
+        c9.a(-2);
+        c9.a("Client does not support extra params.");
+        h = c9.a();
+        h.a c10 = h.c();
+        c10.a(-2);
+        c10.a("Client does not support the feature.");
+        i = c10.a();
+        h.a c11 = h.c();
+        c11.a(-2);
+        c11.a("Client does not support get purchase history.");
+        j = c11.a();
+        h.a c12 = h.c();
+        c12.a(5);
+        c12.a("Invalid purchase token.");
+        k = c12.a();
+        h.a c13 = h.c();
+        c13.a(6);
+        c13.a("An internal error occurred.");
+        l = c13.a();
+        h.a c14 = h.c();
+        c14.a(4);
+        c14.a("Item is unavailable for purchase.");
+        m = c14.a();
+        h.a c15 = h.c();
+        c15.a(5);
+        c15.a("SKU can't be null.");
+        n = c15.a();
+        h.a c16 = h.c();
+        c16.a(5);
+        c16.a("SKU type can't be null.");
+        o = c16.a();
+        h.a c17 = h.c();
+        c17.a(0);
+        p = c17.a();
+        h.a c18 = h.c();
+        c18.a(-1);
+        c18.a("Service connection is disconnected.");
+        q = c18.a();
+        h.a c19 = h.c();
+        c19.a(-3);
+        c19.a("Timeout communicating with service.");
+        r = c19.a();
+        h.a c20 = h.c();
+        c20.a(-2);
+        c20.a("Client doesn't support subscriptions.");
+        s = c20.a();
+        h.a c21 = h.c();
+        c21.a(-2);
+        c21.a("Client doesn't support subscriptions update.");
+        t = c21.a();
+        h.a c22 = h.c();
+        c22.a(-2);
+        c22.a("Client doesn't support multi-item purchases.");
+        u = c22.a();
+        h.a c23 = h.c();
+        c23.a(5);
+        c23.a("Unknown feature");
+        v = c23.a();
+    }
+}
