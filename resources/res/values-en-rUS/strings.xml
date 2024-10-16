@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ask_me_about">Master tips</string>
+    <string name="chat_history_no_more">No more messages</string>
+    <string name="chat_history_text">Release to view more</string>
+    <string name="detail_trends">TRENDS</string>
+    <string name="form_commit_btn">SUBMIT MY CASE</string>
+    <string name="form_entrance">CONTACT US</string>
+    <string name="form_info_commit_fail">You have 1 case in progress. Thank you for your patience.</string>
+    <string name="form_info_commit_succ">Hi there, your question has been submitted. We will reply as soon as possible. Thank you for your patience and have a nice day!</string>
+    <string name="form_upload_desc">Click to upload</string>
+    <string name="gift_receive">Collect</string>
+    <string name="hot">HOT</string>
+    <string name="im_exist">Exit</string>
+    <string name="im_info_create_manualfail">Customer service is currently busy and unable to provide manual service. Please try again later!</string>
+    <string name="im_info_queuing_quit">Manual service closed.</string>
+    <string name="im_info_queuing_succ">%s online.</string>
+    <string name="im_manual">Customer Service</string>
+    <string name="im_ready_enter_intro">In order to arrange customer service for you, please describe your problem in detail using more than 20 characters.</string>
+    <string name="im_ready_msg_notenough">Please provide a description of 20 characters or more.</string>
+    <string name="im_stopservice">End Chat</string>
+    <string name="im_stopwaiting">Exit Queue</string>
+    <string name="input_hint">Enter your message</string>
+    <string name="more">MORE&gt;&gt;</string>
+    <string name="more_videos">LIBRARY</string>
+    <string name="news">NEW</string>
+    <string name="pic_save">SAVE</string>
+    <string name="pic_save_done">Saved</string>
+    <string name="pic_save_failed">Save failed</string>
+    <string name="search">Search</string>
+    <string name="search_tip">Find more information about \"%s\"</string>
+    <string name="star_title">What\'s your feedback about our custmer support?</string>
+    <string name="ticket_entrance">MY CASE</string>
+    <string name="ticket_replay_title">Agent\'s reply</string>
+    <string name="ticket_submit">Submitted</string>
+    <string name="trends">TRENDS</string>
+</resources>

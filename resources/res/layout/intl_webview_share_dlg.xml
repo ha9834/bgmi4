@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/share_bg_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:background="@color/intl_webview_color_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/share_recyclerView"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textSize="@dimen/cancel_font_size"
+        android:typeface="monospace"
+        android:textColor="@color/intl_webview_color_fonts"
+        android:gravity="center"
+        android:id="@+id/share_cancel"
+        android:background="@color/intl_webview_color_share_btn_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:text="@string/intl_webview_cancel"/>
+</LinearLayout>

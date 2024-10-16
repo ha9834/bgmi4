@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        style="@style/imsdk_migrateweb_action_container">
+        <ImageButton
+            android:id="@+id/imsdk_migrateweb_btn_back"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/com_tencent_migrateweb_bg_back"
+            android:scaleType="centerInside"
+            style="@style/imsdk_migrateweb_action_button"/>
+        <TextView
+            android:id="@+id/imsdk_migrateweb_tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/imsdk_migrateweb_action_title"
+            android:layout_weight="1"
+            style="@style/imsdk_migrateweb_action_title"/>
+        <ImageButton
+            android:id="@+id/imsdk_migrateweb_btn_close"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/com_tencent_migrateweb_bg_close"
+            android:scaleType="centerInside"
+            style="@style/imsdk_migrateweb_action_button"/>
+    </LinearLayout>
+    <View style="@style/imsdk_migrateweb_line"/>
+    <ProgressBar
+        android:id="@+id/imsdk_migrateweb_bar_progress"
+        android:visibility="visible"
+        style="@style/imsdk_migrateweb_progress_bar"/>
+    <WebView
+        android:id="@+id/imsdk_migrateweb_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

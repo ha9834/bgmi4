@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "646362697320",
+    "firebase_url": "https://pubg-mobile-fit-29242572.firebaseio.com",
+    "project_id": "pubg-mobile-fit-29242572",
+    "storage_bucket": "pubg-mobile-fit-29242572.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646362697320:android:f4ab20250d67fccf52b5dd",
+        "android_client_info": {
+          "package_name": "com.pubg.imobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646362697320-ng2m2uj8a53arsiqgk7btc3bq9ia3rep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbj7yQgLhCjsMH9fqWgXPT8EZJFaFWDKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646362697320-ng2m2uj8a53arsiqgk7btc3bq9ia3rep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

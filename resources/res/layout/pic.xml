@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/pic_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_brand"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/icon_close"
+        android:scaleType="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        android:layout_alignParentEnd="true"/>
+    <Button
+        android:textSize="12sp"
+        android:textColor="@color/pic_save_tx"
+        android:id="@+id/btn_save"
+        android:background="@drawable/bg_pic_save"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="34dp"
+        android:text="@string/pic_save"
+        android:layout_toRightOf="@+id/iv_brand"
+        android:layout_alignBottom="@+id/iv_brand"
+        android:layout_marginStart="34dp"
+        android:layout_toEndOf="@+id/iv_brand"
+        app:fontFamily="@font/agency_bold"/>
+</RelativeLayout>

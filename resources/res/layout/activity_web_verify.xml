@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/imsdk_webverify_action_container">
+        <ImageButton
+            android:id="@+id/imsdk_webverify_btn_close"
+            android:layout_width="@dimen/imsdk_webverify_btn"
+            android:layout_height="@dimen/imsdk_webverify_btn"
+            android:layout_marginTop="@dimen/imsdk_webverify_margin_small"
+            android:layout_marginBottom="@dimen/imsdk_webverify_margin_small"
+            android:src="@drawable/com_tencent_webverify_bg_close"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/imsdk_webverify_margin_small"
+            android:layout_alignParentEnd="true"
+            style="@style/imsdk_webverify_action_button"/>
+    </RelativeLayout>
+    <WebView
+        android:id="@+id/imsdk_webverify_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="StartUpDontAskAgainCancel">取消</string>
+    <string name="StartUpDontAskAgainSetting">设置</string>
+    <string name="StartUpDontAskAgainTips">需要前往设置界面开启相关权限后才可使用该功能。</string>
+    <string name="StartUpExternalStorageOK">确认</string>
+    <string name="StartUpExternalStorageTips">&lt;b&gt;储存权限申请：&lt;/b&gt;&lt;br /&gt;Battlegrounds Mobile India需要储存权限来保存游戏资料。</string>
+    <string name="StartUpRejectExternalStorageNo">拒绝</string>
+    <string name="StartUpRejectExternalStorageTips">&lt;b&gt;期望您允许该请求：&lt;/b&gt;&lt;br /&gt;存储权限用以保证游戏正常运行，不会访问其他文件。&lt;br /&gt;&lt;br /&gt;选择“允许”将再次弹出权限请求。</string>
+    <string name="StartUpRejectExternalStorageYes">允许</string>
+    <string name="hs__conversation_detail_error">请输入不少于15个字描述你遇到的问题</string>
+    <string name="imsdk_webview_back">回退</string>
+    <string name="imsdk_webview_cancel">取消</string>
+    <string name="imsdk_webview_close">关闭</string>
+    <string name="imsdk_webview_forward">前进</string>
+    <string name="imsdk_webview_refresh">刷新</string>
+    <string name="imsdk_webview_share">分享</string>
+    <string name="imsdk_webview_stop">停止刷新</string>
+    <string name="msdk_upload_file_title">上传文件</string>
+    <string name="share_browser">Browser</string>
+    <string name="share_cancel">分享取消</string>
+    <string name="share_facebook">Facebook</string>
+    <string name="share_failure">分享失败</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_wechat">微信</string>
+</resources>

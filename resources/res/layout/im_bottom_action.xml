@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp">
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/help_item_title"
+        android:gravity="center_vertical"
+        android:id="@+id/actionBtn"
+        android:background="@drawable/im_bottom_action_bg"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/im_stopwaiting"
+        android:drawablePadding="3dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/help_item_info"
+        android:gravity="center_vertical"
+        android:id="@+id/infoText"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="5dp"/>
+</LinearLayout>

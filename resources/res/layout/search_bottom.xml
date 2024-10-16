@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="13sp"
+    android:textColor="@color/help_item_title"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/text"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"/>

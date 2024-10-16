@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="13sp"
+    android:textColor="@color/white"
+    android:gravity="center"
+    android:id="@+id/desc"
+    android:background="@drawable/bg_pic_save"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginLeft="15dp"
+    android:text="@string/form_entrance"
+    android:drawableLeft="@drawable/icon_form"
+    android:drawablePadding="7dp"
+    android:layout_centerVertical="true"
+    android:drawableStart="@drawable/icon_form"
+    android:paddingStart="35dp"
+    android:paddingEnd="35dp"
+    android:layout_marginStart="15dp"/>

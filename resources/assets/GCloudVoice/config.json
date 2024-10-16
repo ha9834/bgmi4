@@ -1,0 +1,59 @@
+
+{
+    "tve":
+    {
+        "volume_scala" :
+        {
+            "HM NOTE 1TDXiaomi":30
+            ,"HUAWEI G750-T00Huawei":60
+            ,"Coolpad 8675-HDCoolpad":40
+            ,"HTC M8ehtc":60
+		,"Nexus 4google":400
+        }
+        ,"delay_time" :
+        {
+            "2G":{
+                "max":1600
+                ,"default":600
+                ,"min":600
+            }
+            ,"3G":{
+                "max":1600
+                ,"default":600
+                ,"min":600
+            }
+            ,"4G":{
+                "max":1200
+                ,"default":400
+                ,"min":400
+            }
+            ,"WiFi":{
+                "max":1200
+                ,"default":300
+                ,"min":300
+            }
+            ,"unknown":{
+                "max":1200
+                ,"default":600
+                ,"min":600
+            }
+        }
+        ,"device_config":
+        {		
+        }
+    }
+    
+    ,"cdnvister":
+    {
+        "default_url":
+        {
+            "remoteConfigUrl":"https://in-voiceconfig.globh.com:443",
+            "logReportUrl":"https://127.0.0.0:443",
+            "voiceReportUrl":"https://127.0.0.0:443",
+            "voiceTranslateUrl":"https://127.0.0.0:443",
+            "voiceUrl":"udp://in-voice.globh.com:8700",
+            "flqUrl":"udp://127.0.0.0:18301",
+            "dataReportUrl":"udp://voice-qos.globh.com:8011"
+        }
+    }
+}

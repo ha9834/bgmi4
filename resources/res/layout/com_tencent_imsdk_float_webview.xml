@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:layout_gravity="end"
+            android:id="@+id/float_webview_close"
+            android:background="@color/colorToastBg"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/float_close"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/imsdk_webview_stop"
+            android:layout_alignParentEnd="true"/>
+        <com.tencent.smtt.sdk.WebView
+            android:id="@+id/float_webview_core"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@+id/float_webview_close"/>
+    </RelativeLayout>
+</FrameLayout>

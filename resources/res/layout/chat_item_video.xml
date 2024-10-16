@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.grobot.lite.ui.view.component.HorizontalView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/video_view"
+    android:layout_width="wrap_content"
+    android:layout_height="94dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="0dp"
+    android:overScrollMode="never"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="0dp"/>

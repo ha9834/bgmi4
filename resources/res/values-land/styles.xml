@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="UE4BaseTheme" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+    </style>
+    <style name="UE4SplashTheme" parent="@style/UE4SplashThemeBG">
+    </style>
+    <style name="UE4SplashThemeAllInOne" parent="@style/UE4BaseTheme">
+        <item name="android:windowBackground">@drawable/splashscreen_landscape</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="UE4SplashThemeBG" parent="@style/UE4SplashThemeAllInOne">
+        <item name="android:windowBackground">@drawable/splashscreen_landscape_bg</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

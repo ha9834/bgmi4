@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_gravity="start|center_vertical"
+        android:layout_width="5dp"
+        android:layout_height="6dp"
+        android:src="@drawable/icon_vt_player"/>
+    <TextView
+        android:textSize="9sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="start|center_vertical"
+        android:id="@+id/tv_vt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        app:fontFamily="@font/agency_bold"/>
+</merge>
